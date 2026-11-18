@@ -131,6 +131,9 @@ for finer detail.
   timestamps and malformed data no longer corrupt current usage. Quotas follow
   login changes, and stale session activity is shown as unavailable.
   IDs learned from matched copies preserve distinct requests across all stores.
+  Quota fills and numeric totals transition gently on refresh and respect
+  reduced motion.
+  Agent switches wait for the matching snapshot and discard superseded reads.
 - **Game Bar.** `Super+Shift+G` raises a passive overlay over the focused
   monitor: a strip of eight widgets and draggable cards for capture,
   performance, resources, tasks, media, audio, gallery and Discord voice. Cards
